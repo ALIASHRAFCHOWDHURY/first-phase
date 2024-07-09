@@ -267,16 +267,22 @@ body{
         border: 0px solid;
         border-radius: 10px;
 }
-.main-headline-h1{
+.main-headline-h1-form{
         color: #FFF;
+        text-align: center;
+        font-family: "Azeret Mono";
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 36px; /
 }
-.main-headline-p{
+.main-headline-p-form{
         color: #FFF;
 }
 .form{
         background-image: url('Images/handshake.jpg');
         background-repeat: no-repeat;
-        padding: 20px;
+        padding: 80px;
         border-radius: 15px;
         
 }
