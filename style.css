@@ -14,6 +14,14 @@ body{
         margin: 10px;
         margin-bottom: 20px;
 }
+.head-line-h2{
+        color: #0D1321;
+        font-family: "Azeret Mono";
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+}
 .button-resume{
         font-family: "Azeret Mono";
         display: flex;
@@ -162,4 +170,113 @@ body{
         justify-content: center;
         align-items: center;
         gap: 10px
+}
+.youtube-video{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 550px;
+        width: 1076px;
+        margin-left:130px ;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        align-self: stretch;
+        border-radius: 16px;
+        border: 1px solid rgba(13, 19, 33, 0.20);
+        padding: 15px;
+}
+.Target-Part{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+}
+.Target-one{
+        border-radius: 16px;
+        background: rgba(255, 76, 30, 0.05);
+        margin: 20px;
+        padding: 20px;
+       
+}
+.Target-one-h1{
+        color: #0D1321;
+        font-family: "Azeret Mono";
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 36px;
+}
+.Target-one-p{
+        color: #0D1321;
+        font-family: "Azeret Mono";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+}
+.Target-one-a{
+        color: #0D1321;
+        font-family: "Azeret Mono";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-decoration-line: underline;
+}
+
+.Target-two{
+        border-radius: 16px;
+        background: rgba(0, 76, 232, 0.05);
+        margin: 20px;
+        padding: 20px;
+}
+.Target-three{
+        border-radius: 16px;
+        background: rgba(255, 223, 0, 0.05);
+        margin: 20px;
+        padding: 20px;
+}
+
+.form-part{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+}
+.form-input{
+       
+        padding: 15px 180px 15px 20px;
+        border: 0px solid ;
+        border-radius: 10px;
+}
+.form-button{
+      
+        width: 120px;
+        padding: 12px 15px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        color: #0D1321;
+        text-align: center;
+        font-family: "Azeret Mono";
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 600;
+        border: 0px solid;
+        border-radius: 10px;
+}
+.main-headline-h1{
+        color: #FFF;
+}
+.main-headline-p{
+        color: #FFF;
+}
+.form{
+        background-image: url('Images/handshake.jpg');
+        background-repeat: no-repeat;
+        padding: 20px;
+        border-radius: 15px;
+        
 }
