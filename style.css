@@ -1,0 +1,41 @@
+
+.head-line{
+        display: flex;
+        justify-content: space-between;
+        margin: 10px;
+        margin-bottom: 20px;
+}
+.button-resume{
+        padding: 5px;
+        border-radius: 10px;
+        
+}
+
+.contact-button{
+        padding: 15px;
+        border-radius: 10px;
+        color: aliceblue;
+        background-color: black;
+}
+.banner-img{
+        background-image: url('Images/Hero-bg.png');
+}
+.banner{
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+}
+.banner-text{
+        display: flex;
+        justify-content: center;
+}
+.banner-p{
+        
+        display: flex;
+        justify-content: center;
+        
+}
+.banner-button{
+        display: flex;
+        justify-content: center;
+}
