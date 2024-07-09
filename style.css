@@ -1,4 +1,13 @@
-
+.azeret-mono {
+        color: #0D1321;
+        text-align: center;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        font-family: "Azeret Mono";
+        font-style: normal;
+}
+body{
+        background:  #FFF;;
+}
 .head-line{
         display: flex;
         justify-content: space-between;
@@ -6,16 +15,27 @@
         margin-bottom: 20px;
 }
 .button-resume{
-        padding: 5px;
+        font-family: "Azeret Mono";
+        display: flex;
+        padding: 12px 20px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
         border-radius: 10px;
         
 }
 
 .contact-button{
-        padding: 15px;
+        font-family: "Azeret Mono";
+        display: flex;
+        padding: 12px 20px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        color: rgb(253, 254, 255);
         border-radius: 10px;
-        color: aliceblue;
         background-color: black;
+        
 }
 .banner-img{
         background-image: url('Images/Hero-bg.png');
@@ -28,6 +48,10 @@
 .banner-text{
         display: flex;
         justify-content: center;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 68px;
 }
 .banner-p{
         
@@ -38,4 +62,104 @@
 .banner-button{
         display: flex;
         justify-content: center;
+        padding: 15px;
+       
+}
+.main{
+        background: rgba(13, 19, 33, 0.02);
+        margin: 40px 80px;
+        padding: 40px;
+        border-radius: 20px;
+}
+.main-headline{
+        text-align: center;
+        margin-top: 40px;
+}
+.main-headline-h1{
+        color: #0D1321;
+        text-align: center;
+        font-family: "Azeret Mono";
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal
+}
+.main-headline-p{
+        color: #0D1321;
+        text-align: center;
+        font-family: "Azeret Mono";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+}
+.main-first{
+        display: flex;
+        justify-content: space-around;
+       background-color: #FFF;
+        border-radius: 15px;
+        padding: 20px;
+        margin-left: 60px;
+        margin-right: 60px;
+        margin-top: 10px;
+}
+.main-first-h1{
+        color: rgba(13, 19, 33, 0.70);
+        font-family: "Azeret Mono";
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 36px;
+}
+.main-first-p{
+        color: #0D1321;
+        font-family: "Azeret Mono";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+}
+.main-first-button{
+        font-family: "Azeret Mono";
+        display: flex;
+        padding: 12px 20px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px
+}
+.main-second{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+        background-color: #FFF;
+        border-radius: 15px;
+        padding: 20px;
+        margin-left: 60px;
+        margin-right: 60px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+}
+.main-second-h1{
+        color: rgba(13, 19, 33, 0.70);
+        font-family: "Azeret Mono";
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 36px;
+}
+.main-second-p{
+        color: #0D1321;
+        font-family: "Azeret Mono";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+}
+.main-second-button{
+        font-family: "Azeret Mono";
+        display: flex;
+        padding: 12px 20px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px
 }
