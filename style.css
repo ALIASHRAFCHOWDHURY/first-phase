@@ -294,6 +294,12 @@ body{
 }
 .main-headline-p-form{
         color: #FFF;
+        text-align: center;
+        font-family: "Azeret Mono";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
 }
 .form{
         background-image: url('Images/handshake.jpg');
@@ -323,4 +329,11 @@ body{
 }
 .logo{
         margin: 5px;
+}
+.Next{
+        border: 2px solid gray;
+        box-shadow: 10px 10px 20px;
+}
+.next-img{
+        
 }
